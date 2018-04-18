@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>Login</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#">Blog</a>
+            </div>
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Help</a></li>
+            </ul>
+            </div>
+        </nav>
+        
+            <form action="validate.jsp" method="POST">
+                <table>
+                <tr>
+                <td>Name:</td>
+                <td><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+                </tr>
+                </table>
+                <center>
+                    <input type="submit" value="Log in">
+            </form>
+        
+        
+        
+    </body>
+</html>
